@@ -187,3 +187,40 @@ Welcome to React Learning.
 - Child Component
 - Passing Data
 - Reusable Components
+# Step 4 - State Management using useState
+
+## Objective
+
+Learn how to manage and update data inside a React component using the `useState` Hook.
+
+## Task 1 - Name Changer
+
+A user enters a name in the input field. The value is stored in state and displayed dynamically on the screen.
+
+### Concepts Learned
+
+- useState Hook
+- Input Handling
+- Event Handling (`onChange`)
+- Dynamic UI Updates
+
+---
+
+## Task 2 - Counter
+
+A counter application that increments, decrements, and resets the count using state.
+
+### Concepts Learned
+
+- useState Hook
+- State Updates
+- Event Handling (`onClick`)
+- Component Re-rendering
+
+## Overall Concepts Learned
+
+- React State
+- useState Hook
+- Controlled Components
+- Event Handling
+- Dynamic Rendering
