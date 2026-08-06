@@ -18,7 +18,7 @@ Considering you have some idea about JSX notation and How React works
 
 Typescript ➖
 
-1. Data types and definitions
+1. Data types and definitionsdir
 2. Interface & types { for objects }
 3. Generic type for Hooks <T>
 4. optional props (?) 
