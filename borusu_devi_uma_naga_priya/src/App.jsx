@@ -1,39 +1,68 @@
 import "./App.css";
 
-import Hello from "./components/Hello";
-import FunctionComponent from "./components/FunctionComponent";
-import ClassComponent from "./components/ClassComponent";
-import Welcome from "./components/Welcome";
-import NameChanger from "./components/NameChanger";
-import Counter from "./components/Counter";
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+
+import Home from "./pages/Home";
+import ProjectSetup from "./pages/ProjectSetup";
+import ComponentsPage from "./pages/ComponentsPage";
+import PropsPage from "./pages/PropsPage";
+import StatePage from "./pages/StatePage";
+import HooksPage from "./pages/HooksPage";
+
+import NameChangerPage from "./pages/NameChangerPage";
+import CounterPage from "./pages/CounterPage";
+import UseStatePage from "./pages/UseStatePage";
+import UseEffectPage from "./pages/UseEffectPage";
+import ContextAPIPage from "./pages/ContextAPIPage";
+
+
+import WelcomePage from "./pages/WelcomePage";
 
 function App() {
   return (
-    <div className="container">
-      <Hello />
+    <div>
+      <Navbar />
 
-      <hr />
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-      <FunctionComponent />
+        <Route path="/project-setup" element={<ProjectSetup />} />
 
-      <hr />
+        <Route path="/components" element={<ComponentsPage />} />
 
-      <ClassComponent />
+        <Route path="/props" element={<PropsPage />} />
 
-      <hr />
+        <Route path="/state" element={<StatePage />} />
 
-      <Welcome
-        name="Priya"
-        course="React Learning"
-      />
+        <Route path="/hooks" element={<HooksPage />} />
 
-      <hr />
+     
+        <Route path="/state" element={<StatePage />} />
 
-      <NameChanger />
+<Route
+  path="/state/name-changer"
+  element={<NameChangerPage />}
+/>
 
-      <hr />
+<Route
+  path="/state/counter"
+  element={<CounterPage />}
+/>
+<Route path="/hooks" element={<HooksPage />} />
 
-      <Counter />
+<Route path="/hooks/useState" element={<UseStatePage />} />
+
+
+<Route path="/hooks/welcome" element={<WelcomePage />} />
+
+<Route path="/hooks/useEffect" element={<UseEffectPage />} />
+
+<Route path="/hooks/context-api" element={<ContextAPIPage />} />
+
+
+      </Routes>
     </div>
   );
 }
