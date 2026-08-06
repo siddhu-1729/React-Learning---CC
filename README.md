@@ -14,12 +14,21 @@ Considering you have some idea about JSX notation and How React works
 8. Hooks (Explore built-in hooks)
 9. useState , useEffect , Context API , useContext  (Work with code samples)
 10. Client side routing concept
-11. Global State  management - {Zustand , Redux } →present reading is enough 
+11. Global State  management - {Zustand , Redux } →present reading is 
+
+12. Writing Individual CSS Page for single Component
+13. Adding TailwindCSS plugin
+14. React Forms
+15. Async API Handling
+16. Payloads {passing by params & Request Body}
 
 Typescript ➖
 
-1. Data types and definitionsdir
+1. Data types and definitions
 2. Interface & types { for objects }
 3. Generic type for Hooks <T>
 4. optional props (?) 
 5. Types of functions
+
+6. state Initialization
+7. Controlled rendering
