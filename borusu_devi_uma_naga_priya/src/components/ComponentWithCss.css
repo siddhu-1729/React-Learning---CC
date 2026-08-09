@@ -1,0 +1,17 @@
+.hello-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.hello-container h1 {
+  font-size: 32px;
+}
+
+.hello-container p {
+  font-size: 18px;
+}
+
+.hello-container button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
