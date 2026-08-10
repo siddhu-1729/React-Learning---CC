@@ -17,53 +17,115 @@ import UseStatePage from "./pages/UseStatePage";
 import UseEffectPage from "./pages/UseEffectPage";
 import ContextAPIPage from "./pages/ContextAPIPage";
 
-
 import WelcomePage from "./pages/WelcomePage";
-
+import ComponentCssPage from "./pages/CompoenetCssPage";
+import TailwindPluginPage from "./pages/TailwindPluginPage";
+import SubmitFormPage from "./pages/SubmitFormPage";
+import AsyncAPIPage from "./pages/AsyncAPIPage";
+import PayLoadsPage from "./pages/PayLoadsPage";
+import ParamPage from "./pages/ParamPage";
+import RequestBodyPage from "./pages/RequestBodyPage";
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/project-setup" element={<ProjectSetup />} />
+        <Route
+          path="/project-setup"
+          element={<ProjectSetup />}
+        />
 
-        <Route path="/components" element={<ComponentsPage />} />
+        <Route
+          path="/components"
+          element={<ComponentsPage />}
+        />
 
-        <Route path="/props" element={<PropsPage />} />
+        <Route
+          path="/props"
+          element={<PropsPage />}
+        />
 
-        <Route path="/state" element={<StatePage />} />
+        <Route
+          path="/state"
+          element={<StatePage />}
+        />
 
-        <Route path="/hooks" element={<HooksPage />} />
+        <Route
+          path="/state/name-changer"
+          element={<NameChangerPage />}
+        />
 
-     
-        <Route path="/state" element={<StatePage />} />
+        <Route
+          path="/state/counter"
+          element={<CounterPage />}
+        />
 
-<Route
-  path="/state/name-changer"
-  element={<NameChangerPage />}
-/>
+        <Route
+          path="/hooks"
+          element={<HooksPage />}
+        />
 
-<Route
-  path="/state/counter"
-  element={<CounterPage />}
-/>
-<Route path="/hooks" element={<HooksPage />} />
+        <Route
+          path="/hooks/useState"
+          element={<UseStatePage />}
+        />
 
-<Route path="/hooks/useState" element={<UseStatePage />} />
+        <Route
+          path="/hooks/welcome"
+          element={<WelcomePage />}
+        />
 
+        <Route
+          path="/hooks/useEffect"
+          element={<UseEffectPage />}
+        />
 
-<Route path="/hooks/welcome" element={<WelcomePage />} />
+        <Route
+          path="/hooks/context-api"
+          element={<ContextAPIPage />}
+        />
 
-<Route path="/hooks/useEffect" element={<UseEffectPage />} />
+        <Route
+          path="/component-with-css"
+          element={<ComponentCssPage />}
+        />
 
-<Route path="/hooks/context-api" element={<ContextAPIPage />} />
+        <Route
+          path="/TailwindPlugin"
+          element={<TailwindPluginPage />}
+        />
 
+        <Route
+          path="/SubmitForm"
+          element={<SubmitFormPage />}
+        />
 
+        <Route
+          path="/AsyncAPI"
+          element={<AsyncAPIPage />}
+        />
+
+        <Route
+          path="/payloads"
+          element={<PayLoadsPage />}
+        />
+
+        <Route
+          path="/payloads/params"
+          element={<ParamPage />}
+        />
+
+        <Route
+          path="/payloads/requestbody"
+          element={<RequestBodyPage />}
+        />
       </Routes>
-    </div>
+
+  
+    </>
   );
 }
 

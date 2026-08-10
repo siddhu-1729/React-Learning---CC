@@ -1,4 +1,4 @@
-import Hello from "../components/Hello";
+import Hello from "../components/HelloComponent";
 import FunctionComponent from "../components/FunctionComponent";
 import ClassComponent from "../components/ClassComponent";
 
