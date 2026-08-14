@@ -1,6 +1,6 @@
 # Full Stack-Learning---CC
 
-# Vite + React Framework concepts
+# Vite + React Framework concepts  and Node.js/Backend Concepts
 
 Considering you have some idea about JSX notation and How React works
 
