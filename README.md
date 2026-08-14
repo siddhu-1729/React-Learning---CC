@@ -1,4 +1,4 @@
-# React-Learning---CC
+# Full Stack-Learning---CC
 
 # Vite + React Framework concepts
 
@@ -14,7 +14,7 @@ Considering you have some idea about JSX notation and How React works
 8. Hooks (Explore built-in hooks)
 9. useState , useEffect , Context API , useContext  (Work with code samples)
 10. Client side routing concept
-11. Global State  management - {Zustand , Redux } →present reading is 
+11. Global State  management - {Zustand , Redux } →present reading is enough
 
 12. Writing Individual CSS Page for single Component
 13. Adding TailwindCSS plugin
@@ -32,3 +32,10 @@ Typescript ➖
 
 6. state Initialization
 7. Controlled rendering
+
+
+Backend Concepts :
+Revise the Basic Intro about what is Frontend & Backend - How Both works { what technologies are being used for developing Backend system }
+1.What is Node , Express , Nodemon ? {Study in detail about everything}
+2.Node project setup & Each File meaning
+3.Study what are APIs and types.
