@@ -30,12 +30,14 @@ Typescript ➖
 4. optional props (?) 
 5. Types of functions
 
-6. state Initialization
-7. Controlled rendering
+7. state Initialization
+8. Controlled rendering
 
 
 Backend Concepts :
+
 Revise the Basic Intro about what is Frontend & Backend - How Both works { what technologies are being used for developing Backend system }
-1.What is Node , Express , Nodemon ? {Study in detail about everything}
-2.Node project setup & Each File meaning
-3.Study what are APIs and types.
+
+1. What is Node , Express , Nodemon ? {Study in detail about everything}
+2. Node project setup & Each File meaning
+3. Study what are APIs and types.
